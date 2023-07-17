@@ -2,6 +2,8 @@
     width: 80%;
     height: 1300px;
     border:1px solid red;
+    display: flex;
+
 }
 .child-1 {
     width:200px;
