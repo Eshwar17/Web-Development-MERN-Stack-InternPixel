@@ -9,3 +9,15 @@
     background-color: red;
     color: black;
 }
+.child-2 {
+    width:200px;
+    height:200px;
+    background-color: green;
+    color: black;
+}
+.child-3 {
+    width:200px;
+    height:200px;
+    background-color: blue;
+    color: black;
+}
