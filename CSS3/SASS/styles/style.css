@@ -1,3 +1,18 @@
-h1 {
-  background: lightblue;
+header {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header button {
+  background-color: yellow;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact button {
+  background-color: yellow;
 }/*# sourceMappingURL=style.css.map */

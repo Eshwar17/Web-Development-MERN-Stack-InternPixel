@@ -1,3 +1,16 @@
-h1 {
-    background: lightblue;
+@import "./variables";
+@mixin customStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        background-color: $buttonColor;
+    }
+}
+header {
+    background-color: skyblue;
+    @include customStyle();
+}
+.contact{
+    @include customStyle();
 }
