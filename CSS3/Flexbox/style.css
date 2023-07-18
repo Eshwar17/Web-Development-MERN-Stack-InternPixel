@@ -3,6 +3,8 @@
     height: 1300px;
     border:1px solid red;
     display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
 }
 .child-1 {
     width:200px;
@@ -10,8 +12,9 @@
     background-color: red;
     color: black;
     text-align: center;
-    flex: 1;
-    order: 3;
+    flex-grow:1;
+    order: 1;
+    align-self:flex-end;
 }
 .child-2 {
     width:200px;
@@ -19,7 +22,8 @@
     background-color: green;
     color: black;
     text-align: center;
-    order: 1;
+    flex-grow: 2;
+    order:2;
 }
 .child-3 {
     width:200px;
@@ -27,5 +31,5 @@
     background-color: blue;
     color: black;
     text-align: center;
-    order: 2;
+    flex-grow: 1;
 }
