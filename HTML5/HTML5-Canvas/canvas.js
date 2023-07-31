@@ -21,7 +21,12 @@ c.strokeStyle = 'blue';
 c.stroke();
 
 //Arcs/Circles
-c.beginPath();
-c.arc(400,300,30,0,Math.PI * 2, false);
-c.strokeStyle = 'rgba(255,0,0,0.6)'
-c.stroke()
+
+for(var i = 0; i < 60; i++) {
+    var startAngle = Math.random() * canvas.width;
+    var endAngle = Math.random() * canvas.height;
+    c.beginPath();
+    c.arc(startAngle,endAngle,30,0,Math.PI * 2, false);
+    c.strokeStyle = `rgba(120,${Math.random()*200},230,0.6)`
+    c.stroke()
+}
