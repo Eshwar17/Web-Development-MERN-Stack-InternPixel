@@ -19,3 +19,9 @@ c.lineTo(400, 200);
 c.lineTo(400, 120);
 c.strokeStyle = 'blue';
 c.stroke();
+
+//Arcs/Circles
+c.beginPath();
+c.arc(400,300,30,0,Math.PI * 2, false);
+c.strokeStyle = 'rgba(255,0,0,0.6)'
+c.stroke()
